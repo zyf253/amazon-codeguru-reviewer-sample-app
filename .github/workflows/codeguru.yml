@@ -21,7 +21,11 @@ jobs:
       with:
         role-to-assume: arn:aws:iam::048169001733:role/GuruGitHubCICDRole
         aws-region: us-west-2
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 90d506671c2f946b5f9e053ccf04a88affbf45ff
     - name: Configure AWS Credentials for China region audience
       uses: aws-actions/configure-aws-credentials@v4
       with:
